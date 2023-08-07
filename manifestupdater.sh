@@ -1,7 +1,7 @@
 #!/bin/bash
 git config user.email "thisisgunjan@yahoo.com"
 git config user.name "gunjankhanal"
-BUILD_NUMBER=${BUILD_NUMBER}
+Build.BuildId=${Build.BuildId}
 sed -i "s/replaceImageTag/${BUILD_NUMBER}/g" deploymentmanifest/deployment.yaml
 git add deploymentmanifest/deployment.yaml
 git commit -m "Update deployment image to version ${BUILD_NUMBER}"
