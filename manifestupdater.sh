@@ -18,3 +18,4 @@ echo $new_version > BUILD_ID
 
 # Display the new version
 echo "New version: $new_version"
+BUILD_ID=${BUILD_ID}+1
