@@ -2,7 +2,7 @@
 git config user.email "thisisgunjan@yahoo.com"
 git config user.name "gunjankhanal"
 
-sed -i "s/goonz\/azure_push:*/goonz\/azure_push:${BUILD_ID}/" deploymentmanifest/deployment.yaml
+sed -i "s/goonz\/azure_push:.*/goonz\/azure_push:${BUILD_ID}/" deploymentmanifest/deployment.yaml
 git add deploymentmanifest/deployment.yaml
 git commit -m "Update deployment image to version ${BUILD_ID}"
 
