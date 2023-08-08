@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: sprint-boot-app
-        image: goonz/azure_push:
+        image: goonz/azure_push:111
         ports:
         - containerPort: 8080
