@@ -1,7 +1,7 @@
  # Use the official Tomcat base image
 FROM tomcat:latest
 
-# Remove the default ROOTT application (optional)
+# Remove the default ROOT application (optional)
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Copy the webapp.jar file to the Tomcat webapps directory
