@@ -1,4 +1,4 @@
- # Use the official Tomcat base imagee
+ # Use the official Tomcat base image
 FROM tomcat:latest
 
 # Remove the default ROOTT application (optional)
